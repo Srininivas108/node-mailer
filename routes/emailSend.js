@@ -20,7 +20,7 @@ emailSendRouter.post("/",auth,(req,res)=>{
     
         const mailOptions ={
             from: process.env.EMAIL,
-            to: email,
+            to: email, //(TO CHECK WITH MY EMAIL),
             subject:'Greetings!!',
             text: 'Wishing You All A Very Happy Diwali!!'
         }
